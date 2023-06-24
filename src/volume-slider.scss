@@ -1,0 +1,13 @@
+.volumeSlider {
+	margin-top: 5px;
+	display: flex;
+	flex-direction: column;
+
+	datalist {
+  		display: flex;
+  		flex-direction: column;
+  		justify-content: space-between;
+  		writing-mode: vertical-lr;
+  		width: 200px;
+	}
+}

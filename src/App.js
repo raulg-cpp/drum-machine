@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import SoundButton from './sound-button.js';
+import ControlButton from './control-button.js';
+import Volume from './volume-slider.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    	<div className="mainBox p-2">
+    		<div className="grid-buttons">
+    			<div className="grid">
+    				<SoundButton text="Q" />
+					<SoundButton text="W" />
+					<SoundButton text="E" />
+    				
+    				<SoundButton text="A" />
+    				<SoundButton text="S" />
+    				<SoundButton text="D" />
+    				
+    				<SoundButton text="Z" />
+    				<SoundButton text="X" />
+    				<SoundButton text="C" />
+    			</div>
+    		</div>
+			
+			<div className="controls">				
+				{/* Buttons */}
+				<ControlButton text="Power" />
+				<ControlButton text="Bank" />
+    			
+    			{/* Volume slider */}
+				<Volume />
+    		</div>
+    	</div>
     </div>
   );
 }
