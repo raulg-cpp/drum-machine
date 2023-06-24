@@ -46,7 +46,7 @@ function App() {
 			
 			<div className="controls">				
 				{/* Buttons */}
-				<ControlButton text="Power" />
+				<ControlButton text="Power" onActive={ () => console.log("check") } />
 				<ControlButton text="Bank" />
     			{/* Volume slider */}
 				<Volume />
