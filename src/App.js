@@ -1,4 +1,7 @@
 import './App.scss';
+import { useState } from 'react';
+
+// Components
 import SoundButton from './sound-button.js';
 import ControlButton from './control-button.js';
 import Volume from './volume-slider.js';
