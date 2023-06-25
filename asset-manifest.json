@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/drum-machine/static/css/main.6246fb13.css",
+    "main.js": "/drum-machine/static/js/main.c42c8550.js",
+    "static/js/845.2191103b.chunk.js": "/drum-machine/static/js/845.2191103b.chunk.js",
+    "static/js/787.c419f7a1.chunk.js": "/drum-machine/static/js/787.c419f7a1.chunk.js",
+    "static/media/cymbal-crash.mp3": "/drum-machine/static/media/cymbal-crash.a855bbbfef459ae5b82d.mp3",
+    "static/media/cymbal-splash.mp3": "/drum-machine/static/media/cymbal-splash.1a33f4a80af7f33d6a7d.mp3",
+    "static/media/cymbal-slide.mp3": "/drum-machine/static/media/cymbal-slide.a2f80264eb8ccaa748a8.mp3",
+    "static/media/med-tom-drum.mp3": "/drum-machine/static/media/med-tom-drum.f735d0c9184ad78e7160.mp3",
+    "static/media/small-tom-drum.mp3": "/drum-machine/static/media/small-tom-drum.4de58a9c6e4b0d6291f5.mp3",
+    "static/media/tom-drum.mp3": "/drum-machine/static/media/tom-drum.355220531b57fc385647.mp3",
+    "static/media/bass-drum.mp3": "/drum-machine/static/media/bass-drum.cbe998cbc0bd223d7f53.mp3",
+    "static/media/snare-drum.mp3": "/drum-machine/static/media/snare-drum.6731f4506dca2ddddd60.mp3",
+    "static/media/sticks.mp3": "/drum-machine/static/media/sticks.93deb8794b43141ef01c.mp3",
+    "index.html": "/drum-machine/index.html",
+    "main.6246fb13.css.map": "/drum-machine/static/css/main.6246fb13.css.map",
+    "main.c42c8550.js.map": "/drum-machine/static/js/main.c42c8550.js.map",
+    "845.2191103b.chunk.js.map": "/drum-machine/static/js/845.2191103b.chunk.js.map",
+    "787.c419f7a1.chunk.js.map": "/drum-machine/static/js/787.c419f7a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6246fb13.css",
+    "static/js/main.c42c8550.js"
+  ]
+}
