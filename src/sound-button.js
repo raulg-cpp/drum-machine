@@ -4,8 +4,11 @@ import useKeypress from 'react-use-keypress';
 import {useRef} from 'react';
 
 export default function SoundButton(props) {
-	const [sound] = useSound(props.src);
 	const ref = useRef(null);
+	
+	const [sound] = useSound( props.src, 
+							{ volume:       props.volume, 
+							  soundEnabled: props.enabled } );
 	
 	useKeypress( [props.id, props.id.toLowerCase()], () => { 
 		// play sound

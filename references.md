@@ -29,6 +29,10 @@ https://reactgo.com/react-trigger-button-click/
 
 https://www.fabiofranchino.com/blog/react-import-components-dynamically/
 
+https://bobbyhadz.com/blog/react-disable-button
+
+https://www.kindacode.com/article/using-range-sliders-in-react/
+
 ## CSS
 https://softauthor.com/javascript-get-css-class-names-of-html-element/
 

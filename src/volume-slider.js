@@ -1,11 +1,19 @@
 import './volume-slider.scss';
 
 export default function Volume(props) {
+	const onchange = (event) => {
+		let value = event.target.value / 100;
+		props.setvolume( value );
+	};
+
+	//=== JSX ===	
 	return ( 
     	<div className="volumeSlider">
-			<label for="tempB">Volume</label>
-			<input type="range" id="tempB" name="temp" list="values" 
-				   min="0" max="100" step="1" />
+			<label for="range">Volume</label>
+			
+			<input onChange={onchange} 
+				   type="range" id="range" name="temp" 
+				   list="values" min="0" max="100" step="1"/>
 			
 			<datalist id="values">
   				<option value="0"   label="0"></option>
