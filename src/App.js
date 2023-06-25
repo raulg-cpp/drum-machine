@@ -8,13 +8,17 @@ import Volume from './volume-slider.js';
 
 import {KEYS, SOUND_DIR} from './constants.js';
 
-// functions
+// Main component
 function App() {
+	// state
 	const [volume, setVolume] = useState(1);	// Normalized value
 	const [isOn, setPower] = useState(false);
-
-	const togglePower = () => { setPower(!isOn) };
-
+	const [rate, setRate] = useState(true);
+	
+	// functions
+	const togglePower = () => { setPower(!isOn) };	
+	const toggleRate = () => { setRate(!rate) };
+	
 	//=== JSX ===
 	return (
 	<div className="App">
@@ -24,7 +28,14 @@ function App() {
     				{/* Keypad */}
     				{ KEYS.map( (key, i) => { 
     					return ( 
-    						<SoundButton key={key} id={key} src={SOUND_DIR[i]} volume={volume} enabled={isOn}/> 
+    						<SoundButton 
+    							key={key} 
+    							id={key} 
+    							src={ SOUND_DIR[i] } 
+    						    volume={volume} 
+    						    enabled={isOn} 
+    						    rate={ rate ? 1 : 2 } 
+							/>
     					);
     				})}
     			</div>
@@ -33,7 +44,7 @@ function App() {
 			<div className="controls">				
 				{/* Buttons */}
 				<ControlButton text="Power" onchange={togglePower} />
-				<ControlButton text="Bank" />
+				<ControlButton text="Pitch" onchange={toggleRate} />
     			{/* Volume slider */}
 				<Volume setvolume={setVolume}/>
     		</div>

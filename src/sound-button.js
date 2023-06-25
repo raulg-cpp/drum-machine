@@ -8,7 +8,8 @@ export default function SoundButton(props) {
 	
 	const [sound] = useSound( props.src, 
 							{ volume:       props.volume, 
-							  soundEnabled: props.enabled } );
+							  soundEnabled: props.enabled,
+							  playbackRate: props.rate });
 	
 	useKeypress( [props.id, props.id.toLowerCase()], () => { 
 		// play sound
