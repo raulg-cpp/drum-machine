@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/drum-machine/static/css/main.6246fb13.css",
-    "main.js": "/drum-machine/static/js/main.c42c8550.js",
+    "main.js": "/drum-machine/static/js/main.2b8dd56d.js",
     "static/js/845.2191103b.chunk.js": "/drum-machine/static/js/845.2191103b.chunk.js",
     "static/js/787.c419f7a1.chunk.js": "/drum-machine/static/js/787.c419f7a1.chunk.js",
     "static/media/cymbal-crash.mp3": "/drum-machine/static/media/cymbal-crash.a855bbbfef459ae5b82d.mp3",
@@ -15,12 +15,12 @@
     "static/media/sticks.mp3": "/drum-machine/static/media/sticks.93deb8794b43141ef01c.mp3",
     "index.html": "/drum-machine/index.html",
     "main.6246fb13.css.map": "/drum-machine/static/css/main.6246fb13.css.map",
-    "main.c42c8550.js.map": "/drum-machine/static/js/main.c42c8550.js.map",
+    "main.2b8dd56d.js.map": "/drum-machine/static/js/main.2b8dd56d.js.map",
     "845.2191103b.chunk.js.map": "/drum-machine/static/js/845.2191103b.chunk.js.map",
     "787.c419f7a1.chunk.js.map": "/drum-machine/static/js/787.c419f7a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6246fb13.css",
-    "static/js/main.c42c8550.js"
+    "static/js/main.2b8dd56d.js"
   ]
 }
